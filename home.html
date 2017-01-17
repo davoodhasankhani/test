@@ -1,0 +1,186 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/slick/slick.js"></script>
+	<script type="text/javascript" src="js/sliders.js"></script>
+	<script type="text/javascript" src="js/scroll.js"></script>
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<script type="text/javascript" src="js/animatescroll.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles/home.css">
+  	<link rel="stylesheet" type="text/css" href="styles/slick/slick.css">
+  	<link rel="stylesheet" type="text/css" href="styles/slick/slick-theme.css">
+
+</head>
+
+<body>
+	
+	<div class="loading" id="loading">
+  <span>L</span>
+  <span>O</span>
+  <span>A</span>
+  <span>D</span>
+  <span>I</span>
+  <span>N</span>
+  <span>G</span>
+</div>
+
+
+	<div style="width:100px; height:10px;"> سلام </div>
+	<div style="position:relative">
+		<div class="slider gifts-slider" >
+			<div id="img1"></div>
+			<div id="img2"></div>
+		</div>
+		
+		<div class="bounce" onclick="scrollTO('sex')">
+			<i class="fa fa-angle-double-down"></i>
+		</div>
+	</div>
+	
+	<br/> <br/>
+	<div style="padding: 15px;">
+		<div id="sex"> 
+
+			<div class="row question-mrg">
+				<span class="col-lg-12 question"> !مخاطبت کیه؟ </span>
+			</div>
+
+			<div class="row">
+
+				<div class="col-lg-4 col-md-2 col-sm-3 col-xs-1"></div>
+
+				<div class="col-lg-2 col-md-4 col-sm-3 col-xs-5 padding" onclick="scrollTO('mans-pics')">
+					<div id="man" class="img-responsive per-sexImg-container ">
+						
+							<div class="sex-caption">مرد</div>
+						
+					</div>
+				</div>
+				
+			
+				<div class="col-lg-2 col-md-4 col-sm-3 col-xs-5 padding"  onclick="scrollTO('womans-pics')">
+					<div id="woman" class=" img-responsive per-sexImg-container">
+						
+							<div class="sex-caption">زن</div>
+						
+					</div>
+				</div>
+	
+
+				<div class="col-lg-4 col-md-2 col-sm-3 col-xs-1"></div>
+			</div>
+
+		</div>
+	</div>
+	<br/>
+
+	<div id="mans-pics">
+				
+		<div class="row question-mrg">
+			<div class="col-lg-12">
+				<span class="question"> !حدودا چن سالشه؟ </span>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-lg-1"></div>				
+			<div class="col-lg-2 col-md-4 col-sm-3 col-xs-12 padding">
+				<div id="toddler-boy" class="img-responsive per-sexImg-container">
+					
+					<div class="sex-caption">پسر بچه</div>
+				</div>
+			</div>
+				
+			<div class="col-lg-2 col-md-4 col-sm-3 col-xs-12 padding">
+				<div id="child-boy" class="img-responsive per-sexImg-container">
+					<div class="sex-caption">کودک</div>
+				</div>
+			</div>
+
+			<div class="col-lg-2 col-md-4 col-sm-4 col-xs-12 padding"  onclick="scrollTO('boys-pics')">
+				<div id="teen-boy" class="img-responsive per-sexImg-container">
+					
+					<div class="sex-caption">نوجوان</div>
+				</div>
+			</div>
+				
+			<div class="col-lg-2 col-md-4 col-sm-4 col-xs-12 padding"  onclick="scrollTO('boys-pics')">
+				<div id="young-man" class="img-responsive per-sexImg-container">
+					<div class="sex-caption">حدودا 30 ساله</div>
+				</div>
+			</div>
+
+			<div class="col-lg-2 col-md-4 col-sm-4 col-xs-12 padding"  onclick="scrollTo('boys-pics')">
+				<div id="senior-man" class="img-responsive per-sexImg-container">
+					<div class="sex-caption">بالای 50 سال</div>
+				</div>
+			</div>
+
+			<div class="col-lg-1" style="position:relative"> 
+				<div class="up-bounce" onclick="scrollTO('sex')">
+					<i class="fa fa-angle-double-up" style="top:75px;position:absolute"></i>
+			    </div> 
+			</div>
+
+		</div>
+	</div>
+
+	<div id="womans-pics">
+				
+		<div class="row question-mrg">
+			<div class="col-lg-12">
+				<span class="question"> !حدودا چن سالشه؟ </span>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-1"></div>
+				
+			<div class="col-lg-2 col-md-4 col-sm-4 col-xs-12 padding">
+				<div id="toddler-girl" class="img-responsive per-sexImg-container">
+					
+					<div class="sex-caption">دختر بچه</div>
+				</div>
+			</div>
+				
+			<div class="col-lg-2 col-md-4 col-sm-4 col-xs-12 padding">
+				<div id="child-girl" class="img-responsive per-sexImg-container">
+					<div class="sex-caption">کودک</div>
+				</div>
+			</div>
+			<div class="col-lg-2 col-md-4 col-sm-4 col-xs-12 padding">
+				<div id="teen-girl" class="img-responsive per-sexImg-container">
+					
+					<div class="sex-caption">نوجوان</div>
+				</div>
+			</div>
+				
+			<div class="col-lg-2 col-md-4 col-sm-4 col-xs-12 padding">
+				<div id="young-woman" class="img-responsive per-sexImg-container">
+					<div class="sex-caption">حدودا 30 ساله</div>
+				</div>
+			</div>
+
+			<div class="col-lg-2 col-md-4 col-sm-4 col-xs-12 padding">
+				<div id="senior-woman" class="img-responsive per-sexImg-container">
+					<div class="sex-caption">بالای 50 سال</div>
+				</div>
+			</div>
+
+			<div class="col-lg-1">
+				<div class="up-bounce" onclick="scrollTO('sex')">
+					<i class="fa fa-angle-double-up" style="top:75px;position:absolute"></i>
+			    </div> 
+			</div>
+
+		</div>
+	</div>
+
+</body>
+
+
+</html>
